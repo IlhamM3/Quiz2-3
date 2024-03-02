@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Quiz">
+
+    <fragment
+        android:id="@+id/navigation_Quiz"
+        android:name="com.example.pembekalanandroid.ui.home.HomeFragment"
+        android:label="@string/title_Quiz"
+        tools:layout="@layout/fragment_quiz2" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.pembekalanandroid.ui.dashboard.DashboardFragment"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_signup"
+        android:name="com.example.pembekalanandroid.ui.notifications.NotificationsFragment"
+        android:label="@string/title_signup"
+        tools:layout="@layout/fragment_signup" />
+    <fragment
+        android:id="@+id/navigation_API"
+        android:name="com.example.pembekalanandroid.ui.notifications.NotificationsFragment"
+        android:label="@string/title_API"
+        tools:layout="@layout/fragment_api" />
+</navigation>
